@@ -28,8 +28,9 @@ body{
 	transition: all .5s;
 }
 .boton:hover{
-	background-color: #3d6113;
+	background-color: #ffffff;
 	margin:  10px 0;
+	color: #8bc34a;
 	}
 
 header{
@@ -67,7 +68,7 @@ header{
 
 
 #navegacion-header li a:hover{
-color: #23B42A;
+color: rgb(9, 126, 15);
 
 }	
 
@@ -167,3 +168,13 @@ footer{
 	float: left;
 }
 
+/*aque se pone el responsive, que no se te olvide*/
+
+@media(max-width: 768px){
+	#logo{
+		padding-top: 38px;
+		float: none;
+		width: 100%;
+		text-align: center;
+}
+}
