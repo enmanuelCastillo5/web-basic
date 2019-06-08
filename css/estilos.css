@@ -1,0 +1,16 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+}
+.contenedor{
+	width: 90%;
+	max-width: 960px;
+	/*ancho del contenedor medido en px*/
+	margin: 0 auto;
+}
+.limpiador{
+	clear:both;
+}
