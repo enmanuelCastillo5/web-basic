@@ -14,3 +14,156 @@ body{
 .limpiador{
 	clear:both;
 }
+
+
+.boton{
+	background-color: #8bc34a;
+	padding: 11px  12px;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 3px;
+	margin: 20px 0;
+	display: inline-block;
+	font-size: 12px;
+	transition: all .5s;
+}
+.boton:hover{
+	background-color: #3d6113;
+	margin:  10px 0;
+	}
+
+header{
+	height: 600px;
+	background-image: url('../imagenes/fondo.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}	
+
+#logo{
+	padding-top: 38px;
+	float: left;
+	width: 106px;
+}
+
+#navegacion-header{
+	width: 600px;
+	margin: 48px 0 0 0;
+	list-style: none;
+	float: right;
+	font-size: 14px;
+}
+
+#navegacion-header li{
+	float: left;
+	margin: 0 12px;
+	font-weight: bold;
+}
+#navegacion-header li a{
+	color: #FFFFFF;
+	text-decoration: none;
+	text-transform: uppercase;
+	}	
+
+
+#navegacion-header li a:hover{
+color: #23B42A;
+
+}	
+
+#mensaje-header{
+	width: 525px;
+	margin-top: 100px;	
+}
+
+#mensaje-header h1{
+	font-size: 60px;
+	color: #fff;
+}
+#mensaje-header h1 span{
+	font-size: 24px;
+	display: block;
+}
+#contenedor-beneficios{
+	padding: 42px 0;
+	text-align: center;
+	color: #b7b7b7;
+}
+#contenedor-beneficios ul{
+	margin-top: 23px;
+	list-style: none;
+}
+#contenedor-beneficios ul li{
+	width: 295px;
+	display: inline-block;
+		}
+#contenedor-beneficios ul li .circulo{
+	width: 100px;
+	height: 80px;
+	background-color: #1bbc9b;
+	display: inline-block;
+	border-radius: 50%;
+	color: #fff;
+	font-size: 52px;
+	padding-top: 20px;
+}
+
+#contenedor-beneficios ul li h3{
+	margin: 15px 0;
+}
+
+#contenedor-beneficios h2, 
+#contenedor-beneficios h3{
+	color: #464646;
+
+}
+#contenedor-comercial{
+	background-color: #ebebeb;
+	padding: 67px 0;
+}
+#comercial-lateral-izquierdo{
+	width: 560px;
+	float: left;
+}
+#comercial-lateral-derecho{
+	width: 360px;
+	float: left;
+	margin-left: 30px;
+}
+
+footer{
+	background-color: #8bc34a;
+	padding: 57px 0;
+}
+#footer-lateral-derecho{
+	width: 300px;
+	float: right;
+}
+
+#footer-lateral-izquierdo{
+	width: 400px;
+	float: left;
+}
+#navegacion-footer{
+	list-style: none;
+}
+
+#navegacion-footer li {
+	width: 50%;
+	float: left;
+}
+#navegacion-footer li a{
+	color: #fff;
+	text-decoration: none;
+}
+#creditos{
+	background-color: rgba(0,0,0,.1);
+}
+#creditos ul{
+	float: right;
+	list-style: none;
+}
+#creditos ul li{
+	float: left;
+}
+
